@@ -1,3 +1,6 @@
+-- CRUD (Create, Read, Update, Delete)
+
+-- CREATE
 CREATE TABLE doctors (
  id INT PRIMARY KEY NOT NULL,
  speciality TEXT,
@@ -23,3 +26,20 @@ VALUES
 (3, 2, 'sick'),
 (4, 1, 'healthy'),
 (5, 1, 'sick');
+
+-- READ
+SELECT * FROM doctors;
+SELECT * FROM patients;
+
+-- UPDATE
+UPDATE doctors
+SET taking_patients = FALSE
+WHERE id = 1;
+
+UPDATE patients
+SET health_status = 'unhealthy'
+WHERE id = 1;
+
+-- DELETE
+DELETE FROM patients
+WHERE id = 1;
