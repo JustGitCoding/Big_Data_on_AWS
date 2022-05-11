@@ -9,22 +9,20 @@ In this analysis, we looked at customer reviews of video games purchased from Am
 ```
 Total number of reviews:  40565
 Total 5 star reviews:  15711
+Total number of Vine reviews (paid reviews):  94
+Total number of non-Vine reviews (unpaid reviews):  40471
+Number of 5-star reviews from Vine reviewers:  48
+Number of 5-star reviews from non-Vine reviewers:  15663
 Percentage of Paid Reviewers awarding 5-star reviews:  51.06 %
 Percentage of Unpaid Reviewers awarding 5-star reviews:  38.7 %
 ```
-Note: The analysis above only considers reviews which were voted as 'helpful' at least 50% of the time, and received at least 20 votes in total.
+**Note**: The analysis above only considers reviews which were voted as 'helpful' at least 50% of the time, and received at least 20 votes in total.
+
+![vine](Resources/vine_reviews.png)
+
+![nonvine](Resources/nonvine_reviews.png)
 
 ### Summary:
-1. sdfsdf
+Based on the analysis, it appears that the Amazon Vine program introduces some bias to the product reviews. We see that Vine reviewers give 5-star ratings to products far more often than unpaid reviewers (51% vs 38.7% respectively). 
 
-2. 
-
-3. 
-
-## Summary:
-### Point 1
-
-### Point 2
-
-## Appendix
- 
+Another analysis we could perform to test this theory, is to look at the average star rating provided by Vine reviewers vs non-Vine reviewers (as opposed to simply looking at the count of 5-star reviews). 
