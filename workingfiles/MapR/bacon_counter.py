@@ -18,5 +18,5 @@ class Bacon_count(MRJob):
         yield key, sum(values)
 
 # Run the program
-if __name__ == "main":
+if __name__ == "__main__":
     Bacon_count.run()
